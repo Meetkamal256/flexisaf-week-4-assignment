@@ -1,0 +1,46 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list-item {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-title {
+  margin: 0;
+  color: #333;
+}
+
+.item-body {
+  margin: 10px 0;
+  color: #555;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-button {
+  background: #4caf50;
+  color: #fff;
+}
+
+.delete-button {
+  background: #f44336;
+  color: #fff;
+}
