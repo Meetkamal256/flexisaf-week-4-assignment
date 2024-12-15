@@ -4,14 +4,14 @@ import "./DataForm.css";
 const DataForm = ({ onAdd }) => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     onAdd({ title, body });
     setTitle("");
     setBody("");
   };
-
+  
   return (
     <form className="form-container" onSubmit={handleSubmit}>
       <input
